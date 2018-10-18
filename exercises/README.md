@@ -1,17 +1,22 @@
 # Installation Instructions
 
-Everything we will do in this two day workshop will require the use of Docker.
-You must install it before attending the workshop as we will not have time to
-go through installation issues. If you struggle to install it, please contact
-me in plenty of time *before* the workshop - if you e-mail me the day before
-it is unlikely we will be able to resolve any installation issues in time for
-the workshop  and you will not be able to follow along with the material.
-
-Please do not arrive on the morning of the workshop and try and install it 
-there!
-
 You will need administrator priveleges on whatever computer you bring to the
 workshop. Please do not bring a computer where you do not have this!
+
+If you have any issues with the following, please e-mail me at:
+   ryan.pepper@soton.ac.uk
+
+You must install everything *before* attending the workshop as we will not have time to
+do so during the workshop - we have a lot of material to cover! If you get stuck, 
+please do contact me well in advance - the install procedure for Docker in particular
+can be quite involved, and if you e-mail me the night before it is unlikely I will be
+able to help. Do not turn up to the workshop and try try to install things there!
+
+
+# Lecture 01 Requirements - Containerisation
+
+Everything we will do in this workshop will require the use of Docker, so this
+is a key requirement.
 
 ## Docker Install Instructions
 
@@ -30,5 +35,36 @@ workshop. Please do not bring a computer where you do not have this!
    	  Debian: https://docs.docker.com/install/linux/docker-ce/debian/
    	  Fedora: https://docs.docker.com/install/linux/docker-ce/fedora/
 
+3. Check that the install works by typing on the command line:
 
-In order to save time and in case the Wi-Fi is not very strong, it is important
+   >   docker run ubuntu:18.04
+
+   This will download a minimal version of Ubuntu 18.04 in which we will
+   work for many of the exercises. If this doesn't work, or you get stuck,
+   please e-mail me!
+
+# Lecture 02 Requirements - Version Control
+  
+  Linux: Check that Git is installed, and if not install through your package manager
+
+  MacOS: Git is not installed by default, but running the command 'git' in the terminal
+  	 prompts you to download XCode which containers C/C++ compilers and Git.
+	 Install XCode as prompted. Try the command 'git' again. If that doesn't work,
+	 contact me with the message you get.
+
+  Windows: Install Git for Windows from here: https://gitforwindows.org/
+  
+	 Alternatively, if you are a Windows Subsystem for Linux
+	 just install git through the package manager.
+
+
+# Lecture 03 Requirements - Continuous integration and testing
+  
+  There are no requirements other than those listed above, or they will be installed
+  during the workshop.
+
+# Lecture 04 Documentation - Requirements
+  
+  There are no requirements other than those listed above, or they will	be installed
+  during the workshop.
+
