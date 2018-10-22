@@ -1,9 +1,17 @@
+all: intro containers vc ci doc
 
+intro:
+	pdflatex 00-Intro.tex
 
-all:
+containers:
 	pdflatex 01-containers.tex
+vc:
 	pdflatex 02-Version-Control.tex
+ci:
 	pdflatex 03-CI-and-testing.tex
+
+doc:
+	pdflatex 04-Documenting.tex
 
 clean: 
 	rm *.aux
