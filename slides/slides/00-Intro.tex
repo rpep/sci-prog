@@ -238,10 +238,51 @@ to determine the structure of molecules through analysing X-Ray crystallography 
 \end{frame}
 
 \begin{frame}
+    \frametitle{Reproducibility and Repeatability}
+    \begin{itemize}
+        \item \textbf{Reproducibility - Gaining results which are close in agreement using the same methodology described}
+        \item Key concept of the scientific method
+        \item \textbf{Often scientific papers cannot be reproduced} from the paper alone.
+        \item How many of you have ever struggled to reproduce a result from a computational paper?
+        \item Often this comes from inherent assumptions in modelling which are not discussed in the research literature itself.
+        \item Very challenging to write a paper which is complete.
+        \item Large and well discussed "reproducibility crisis"
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
     \frametitle{A Changing Landscape?}
     \begin{itemize}
         \item Increasing pressure from funders - all UK research data must be made public. Similar story in other countries.
-        \item However, papers are not generally enough to reproduce methods. See next slide for example...
+        \item However, papers and the data are still are not generally enough to reproduce methods.
+        \item Organisations like the Software Sustainability Institute and Software Carpentry have been leads in giving scientists better software development training.
+        \item Well written open projects in Python/C/Fortran like AstroPy, SciPy and NumPy are well documented and serve as great examples for writing well tested and usable software.
+        \item Time commitment to getting there is hard at first but leads you to do better science and have more confidence in your results.
+
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{A Changing Landscape?}
+%    \centering
+    It is becoming increasingly necessary for you to release the source code that generates your publications. It is highly likely you won't be able to decline in future! For e.g.:
+    \begin{figure}
+        \includegraphics[width=0.5\textwidth]{images/Nature-guidelines.png}
+    \end{figure}
+    
+\end{frame}
+\begin{frame}
+    \frametitle{Best Practice - What are we going to learn?}
+    Everything here is absolutely essential to writing good software - in industry these just starting points from which all else follows.
+    If you are not doing any one of these things, you are almost certainly not writing good software.
+
+    It's also worth saying that doing these things does not mean you'll write good software either, but it's less likely to be really terrible...
+
+    \begin{itemize}
+        \item Reproducible environment - laying out how to build software in a way others can follow through using containers.
+        \item Keeping a history of your code - often we need to revert back to old versions or look at where bugs were introduced. Version control helps us do this.
+        \item Testing and Continuous Integration - Tests let you know when something has broken unexpectedly. Continuous Integration runs tests consistently every time you make changes.
+        \item Writing Documentation - A practical guide.
     \end{itemize}
 \end{frame}
 
