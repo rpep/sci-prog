@@ -1,31 +1,35 @@
+# Git Tutorial
+
 1) Open your terminal, or Git Bash.
 
 2) Set your name and username with Git. This labels things you do and associates them with you!
 
->  git config --global user.name "Ryan Pepper"
->  git config --global user.email "ryan.pepper@soton.ac.uk"
+```bash
+  git config --global user.name "Ryan Pepper"
+  git config --global user.email "ryan.pepper@soton.ac.uk"
+```
 
 3) Set your favourite text editor by running the appropriate command below:
 
-Atom   
+# Atom   
 > git config --global core.editor "atom --wait"
 
-nano
+# nano
 > git config --global core.editor "nano -w"
 
-Sublime Text (Mac) 
+# Sublime Text (Mac) 
 > git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -w"
 
-Sublime Text (Win, 64-bit install)
+# Sublime Text (Win, 64-bit install)
 > git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
 
-Notepad++ (Win, 64-bit install)	
+# Notepad++ (Win, 64-bit install)	
 > git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
-Emacs
+# Emacs
 > git config --global core.editor "emacs"
 
-Vim
+# Vim
 > git config --global core.editor "vim"
 
 4) We're going to create a folder. 
