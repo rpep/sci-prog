@@ -11,26 +11,28 @@
 
 3) Set your favourite text editor by running the appropriate command below:
 
+```
 # Atom   
-> git config --global core.editor "atom --wait"
+git config --global core.editor "atom --wait"
 
 # nano
-> git config --global core.editor "nano -w"
+git config --global core.editor "nano -w"
 
 # Sublime Text (Mac) 
-> git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -w"
+git config --global core.editor "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -n -w"
 
 # Sublime Text (Win, 64-bit install)
-> git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
+git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
 
 # Notepad++ (Win, 64-bit install)	
-> git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
 # Emacs
-> git config --global core.editor "emacs"
+git config --global core.editor "emacs"
 
 # Vim
-> git config --global core.editor "vim"
+git config --global core.editor "vim"
+```
 
 4) We're going to create a folder. 
 
