@@ -248,19 +248,25 @@ Git is known as a 'distributed version control' system. Generally, you
 host a repository somewhere online. There are lots of different
 providers for this.
 
-1) GitHub - free! Lots of integrations with other services. Limited
+* GitHub - free! Lots of integrations with other services. Limited
 number or private repositories, but you can send off proof of academic
 status to get an unlimited number.
 
-2) GitLab - also free. Unlimited number of private repositories.  Also
+* GitLab - also free. Unlimited number of private repositories.  Also
 allows local hosting - for e.g. in the University of Southampton,
 there is a private GitLab instance hosted internally, which can be
 used for sensitive projects.
 
-3) BitBucket - Has a lot of commercial products that are used in
+* BitBucket - Has a lot of commercial products that are used in
 industry - good issue trackers.
 
 For this exercise, we'll use GitHub, but in practice there is not much
 between them.
 
+1) Create an account on github.com
 
+2) Once done, click the "+" arrow in the top right hand corner, and click "New repository"
+
+3) Type in a name and description for your repository:
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/3z3Wjcx"><a href="//imgur.com/3z3Wjcx"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
