@@ -14,11 +14,14 @@ doc:
 	pdflatex 04-Documenting.tex
 
 clean: 
-	rm *.aux
-	rm *.log
-	rm *.nav
-	rm *.out
-	rm *.snm
-	rm *.toc
-	rm *.vrb
-	rm *~
+	rm -rf *.aux
+	rm -rf *.log
+	rm -rf *.nav
+	rm -rf *.out
+	rm -rf *.snm
+	rm -rf *.toc
+	rm -rf *.vrb
+	rm -rf *~
+	rm -rf *.synctex.gz
+	rm -rf *.fls
+	rm -rf *fdb_latexmk
