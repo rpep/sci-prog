@@ -41,7 +41,8 @@ is a key requirement.
 
    This will download a minimal version of Ubuntu 18.04 in which we will
    work for many of the exercises. If this doesn't work, or you get stuck,
-   please e-mail me!
+   please e-mail me! We need you to download this in advance in case the Wi-Fi
+   is not strong on Monday.
 
 # Lecture 02 Requirements - Version Control
   
