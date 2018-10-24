@@ -1,3 +1,4 @@
+
 # Git Tutorial
 
 1) Open your terminal, or Git Bash.
@@ -269,4 +270,60 @@ between them.
 
 3) Type in a name and description for your repository:
 
-![Image showing repository creation](https://i.imgur.com/6frOC7Z.png)
+<img src="drawing.jpg" alt="Image showing repository creation" style="width:300px;"/>
+
+You'll now get a list of commands to type; the ones you want are:
+
+```bash
+git remote add origin https://github.com/rpep/mytestrepo.git
+git push -u origin master
+```
+
+You'll get asked for your username and password for GitHub - enter these.
+
+Now refresh the page, and you'll see the file you had has appeared online!
+
+4) Now - in pairs - one of you go to the Git repository of your neighbour. This will be
+
+https://github.com/their-username/their-repository-name
+
+Click 'Fork'. This will make a copy of their repository on your GitHub.
+
+5) Now, copy their repository to your computer with the command:
+
+```bash
+git clone https://github.com/yourusername/their-repository-name.git
+```
+
+6) Move into the folder:
+
+```bash
+cd their-repository-name
+```
+
+And make your own change to the file.
+
+7) Commit it as before:
+
+```bash
+git commit -m "Making a change to my partner's repository"
+```
+
+8) Now push the change online:
+
+```bash
+git push
+```
+
+9) Go back to GitHub.
+
+Click "New Pull Request, and then "Create New Pull Request" on the next page.
+
+Add in some information about the changes you made, and then "Create pull request"
+
+10) Now, your partner needs to go back to their version of the repository, and look at
+    the tab labelled "Pull Requests"
+
+Scroll to the bottom, and then press "Merge pull request"
+
+
