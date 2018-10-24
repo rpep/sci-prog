@@ -11,7 +11,7 @@
 
 3) Set your favourite text editor by running the appropriate command below:
 
-```
+```bash
 # Atom   
 git config --global core.editor "atom --wait"
 
@@ -36,20 +36,24 @@ git config --global core.editor "vim"
 
 4) We're going to create a folder. 
 
-> cd ~
-> mkdir project
-> cd project
-
+```bash
+cd ~
+mkdir project
+cd project
+```
 5) Now, we make the folder a git repository
 
-> git init
+```bash
+git init
+```
 
 6) "ls" shows the directories contents. "ls -a" - the "-a" flag means that we see hidden files, shows us that a new folder called ".git" has been created.
 
 7) We can run
 
-> git status
-
+```bash
+git status
+```
 to show that everything has worked correctly. You should see something like:
 
 ```
@@ -109,7 +113,9 @@ You have two options
 
 i) Run the command
 
-> git commit
+```bash
+git commit
+```
 
 This will bring up the text editor you chose earlier. Type a message about the changes you have made so that the file looks something like this:
 
@@ -127,8 +133,9 @@ git commit -m "Added text to workshop.txt"
 
 12) Now we're going to look at the record we've made so far. Try runningt the command:
 
-> git log
-
+```bash
+git log
+```
 
 
 
