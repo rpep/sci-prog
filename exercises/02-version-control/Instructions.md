@@ -269,4 +269,4 @@ between them.
 
 3) Type in a name and description for your repository:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/3z3Wjcx"><a href="//imgur.com/3z3Wjcx"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+![Image showing repository creation](https://i.imgur.com/6frOC7Z.png)
