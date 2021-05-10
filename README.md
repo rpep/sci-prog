@@ -1,9 +1,8 @@
 # Scientific Programming
 
-This repository is for the course under development for delivery for
-the Faraday Institute in Oxford on the 29th and 30th of October 2018.
+This repository is for the run for the Faraday Institute in Oxford on the 29th and 30th of October 2018.
 
-The course aims to bring students up to scratch with the basics around
+The course aimed to bring students up to scratch with the basics around
 the infrastructure necessary to modern software development, which are
 widely used in the industry, but which are generally not taught in
 degree level programmes, and which are not well known by many
