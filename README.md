@@ -1,6 +1,6 @@
 # Scientific Programming
 
-This repository is for the run for the Faraday Institute in Oxford on the 29th and 30th of October 2018.
+This repository contains the course material for the Scientific Programming workshop run for the Faraday Institute in Oxford on the 29th and 30th of October 2018.
 
 The course aimed to bring students up to scratch with the basics around
 the infrastructure necessary to modern software development, which are
